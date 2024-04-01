@@ -5,9 +5,9 @@ export default function Header(){
   const {user} = useContext(UserContext);
     return (
         <>
-        <Navbar bg="primary" data-bs-theme="dark">
+        <Navbar bg="dark" data-bs-theme="dark">
             <Container>
-            <Navbar.Brand> Context Example</Navbar.Brand>
+            <Navbar.Brand> Dream Job</Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse className="justify-content-end">
             <Navbar.Text> Signed in as : {user}</Navbar.Text>
